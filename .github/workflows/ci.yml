@@ -96,10 +96,10 @@ jobs:
             sleep 1
           done
 
-      - name: Run database migrations
+      - name: Initialize database schema
         run: |
           export DATABASE_URL=postgresql://postgres:postgres@localhost:5432/product_intelligence_test
-          alembic upgrade head
+          python scripts/init_db.py
 
       - name: Run unit tests
         run: |
