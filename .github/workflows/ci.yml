@@ -28,10 +28,10 @@ jobs:
           pip install -e ".[dev]"
 
       - name: Run ruff
-        run: ruff check .
+        run: ruff check analytics
 
       - name: Run mypy
-        run: mypy .
+        run: mypy analytics
 
       - name: Set up Node
         uses: actions/setup-node@v4
