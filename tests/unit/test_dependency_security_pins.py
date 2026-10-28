@@ -16,10 +16,12 @@ PYTHON_MINIMUM = {
     "langgraph": "0.3.15",
     "langchain-core": "1.2.5",
     "sentence-transformers": "5.6.0",
+    "python-multipart": "0.0.27",
 }
 
 FRONTEND_FIXED = {
     "js-yaml": "4.3.2",
+    "source-map-js": "1.2.2",
 }
 
 
